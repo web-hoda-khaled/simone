@@ -1,0 +1,472 @@
+/* ========================================start navbar============================ */
+@media screen and (max-width: 1100px) {
+    .nav-list{
+        opacity: 0;
+    }
+}
+/* ========================================end navbar============================ */
+/* ========================================start header=========================== */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    .header-info span{
+        font-size: 18px ;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .header-info p {
+        font-size: 1rem;
+    }
+    
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+    .header-info span{
+        font-size: 20px ;
+    }
+    h1{
+        font-size: 2.3rem;
+    }
+    .header-info p {
+        font-size: 1.1rem;
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header-info span{
+        font-size: 27px ;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .header-info p {
+        font-size: 1.3rem;
+    }
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .header-info span{
+        font-size: 30px ;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .header-info p {
+        font-size: 1.5rem;
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .header-info span{
+        font-size: 35px ;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .header-info p {
+        font-size: 1.5rem;
+    }
+
+}
+/* ========================================end header=========================== */
+
+/* ==================================start about============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    /* start heading */
+    .heading h2 {
+        font-size:4.5rem;
+    }
+    .heading-desc{
+        top: 30%;
+        padding:0 1rem ;
+    }
+
+    .heading .heading-desc p::after{
+        bottom: 0px;
+        left: 43%;
+    }
+    /* start heading */
+    .container{
+        width: 100%;
+    }
+    .about-desc{
+        width: 100%;
+        padding:0 0 2rem;
+        text-align: center;
+    }
+    .about-list{
+        width: 100%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+    /* start heading */
+    .heading h2 {
+        font-size:5rem;
+    }
+    .heading-desc{
+        top: 30%;
+    }
+    .heading .heading-desc p::after{
+        bottom: -1px;
+        left: 43%;
+        }
+    /* start heading */
+    .about-desc{
+        width: 100%;
+        padding:0 0 2rem;
+        text-align: center;
+        }
+    .about-list{
+        width: 100%;
+        padding:0;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+      /* start heading */
+    .heading h2 {
+        font-size:6rem;
+    }
+    .heading-desc{
+        top: 30%;
+    }
+    .heading .heading-desc p::after{
+        bottom: -1px;
+        left: 47%;
+        }
+    /* start heading */
+    .about-desc{
+        width: 100%;
+        text-align: center;
+        }
+    .about-list{
+        width: 100%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    /* start heading */
+    .heading h2 {
+        font-size:7rem;
+    }
+    .heading-desc{
+        top: 35%;
+    }
+    .heading .heading-desc p::after{
+        bottom: -3px;
+        left: 47%;
+        }
+    /* start heading */
+    .about-desc{
+        width: 65%;
+        padding: 0;
+        text-align: left;
+        padding-left: 2rem;
+        }
+    .about-list{
+        width: 35%;
+        padding-left: 2rem;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 90%;
+    }
+    /* start heading */
+    .heading h2 {
+        font-size: 8.5rem;
+    }
+    .heading-desc{
+        top: 39%;
+    }
+    .heading .heading-desc p::after{
+        bottom: -3px;
+        left: 48%;
+        }
+    /* start heading */
+    .about-desc{
+        width: 65%;
+        padding: 0 1.8rem 0;
+        }
+    .about-list{
+        width: 35%;
+        padding: 0 1.8rem;
+    }
+}
+/* ==================================end about============================= */
+/* ==================================start number============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .number-info{
+        width: 50%;
+        border: 1px solid #eaeaea;
+    
+    }
+    .number-info h4{
+    font-size: 2rem;
+    }
+    .number-info p{
+    font-size: .8rem;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .number-info{
+        width: 50%;
+        border: 1px solid #eaeaea;
+    
+    }
+    .number-info h4{
+        font-size: 2.5rem;
+    }
+    .number-info p{
+        font-size: .9rem;
+    }
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    .number-content{
+        width: 100%;
+    }
+    .number-info{
+        width: 25%;
+    }
+    .number-info h4{
+        font-size: 2.5rem;
+    }
+    .number-info p{
+        font-size: .9rem;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .number-info{
+        width: 25%;
+    }
+    .number-info h4{
+        font-size: 3.5rem;
+    }
+    .number-info p{
+        font-size: .9rem;
+    }
+}
+/* ==================================start service============================= */
+/* ==================================start service============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .service-content{
+        width: 100%;
+    }
+    .service-info{
+        width: 100%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .service-info{
+        width: 100%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    .service-content{
+        width: 100%;
+    }
+    .service-info{
+        width: 50%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .service-info{
+        width: 50%;
+    }
+}
+/* ==================================end service============================= */
+/* ==================================start
+resume============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+.education , .exp , .resume-skill-info{
+    width: 100%;
+}
+.resume-header h3 {
+    padding: 0 1rem;
+}
+.p-l{
+    padding-left: 0;
+}
+.resume-skill{
+    padding: 0 1rem;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .education , .exp , .resume-skill-info{
+        width: 100%;
+    }
+    .p-l{
+        padding-left: 0;
+    }
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    .education , .exp , .resume-skill-info{
+        width: 50%;
+    }
+
+}
+
+/* ==================================end resume============================= */
+/* ==================================start portfolio============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .portfolio-info{
+        width: 100%;
+    }
+    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .portfolio-info{
+        width:100%;
+    }
+    
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    .portfolio-info{
+        width:33.3%;
+    }
+}
+/* ==================================end portfolio============================= */
+/* ==================================start testimonial============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .test-info{
+        width: 100%;
+    }
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .test-info{
+        width: 100%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    .test-info{
+        width: 100%;
+    }
+}
+/* ==================================end testimonial============================= */
+/* ==================================start
+contact=============================- */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .contact-info{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact-form{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact-form form input{
+        width: 100%;
+    }
+    .m-l{
+        margin-left: 0;
+    }
+    }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .contact-info{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact-form{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact-form form input{
+        width: 100%;
+    }
+    .m-l{
+        margin-left: 0;
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    .contact-info{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact-form{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact-form form input{
+        width: 100%;
+    }
+    .m-l{
+        margin-left: 0;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px){
+    .contact-info{
+        width: 30%;
+
+    }
+    .contact-form{
+        width: 70%;
+        padding-left:0;
+
+    }
+    .contact-form form input{
+        width: 48%;
+    }
+
+}
+/* ==================================end contact=============================- */
+/* ==================================start footer============================= */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .footer-info{
+        width: 100%;
+        text-align: center;
+    }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+
+    .footer-info{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Medium devices (landscape tablets, 768px and 991px) */
+@media  screen and (min-width: 768px) and (max-width: 991px){
+    
+    .footer-info{
+        width: 100%;
+        text-align: center;
+
+    }
+
+}
+/* ==================================end footer============================= */
